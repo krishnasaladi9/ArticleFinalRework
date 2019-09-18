@@ -1,0 +1,11 @@
+<p>Admin Page</p>
+<button type="button" (click)="adminLogout()">Logout</button>
+<button type="button" (click)="backToAdmin()">Go to admin</button><br>
+<h3>Blocked Article Details</h3>
+<table>
+  <tr><th> Id</th> <th>Title</th><th>Category</th><th>Author Name</th><th>Tags</th></tr>
+  <tr *ngFor="let article of blockedArticles" >
+    <td>{{article.articleId}}</td> <td>{{article.title}}</td> <td>{{article.category}}</td><td>{{article.authorName}}</td> <td>{{article.tags}}</td>
+	<td><button type="button" (click)="unblockArticle(article.articleId)">Unblock</button> </td> 
+  </tr>
+</table>
