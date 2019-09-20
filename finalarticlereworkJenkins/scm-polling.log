@@ -1,0 +1,10 @@
+Started on 20 Sep, 2019 4:27:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 5497b9115a21a4174c4fb44ad5389610dc982572 (refs/remotes/origin/master)
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe ls-remote -h https://github.com/iamsksatpathy123/articlefinalRework # timeout=10
+Found 1 remote heads on https://github.com/iamsksatpathy123/articlefinalRework
+[poll] Latest remote head revision on refs/heads/master is: 5497b9115a21a4174c4fb44ad5389610dc982572 - already built by 1
+Done. Took 3.2 sec
+No changes
