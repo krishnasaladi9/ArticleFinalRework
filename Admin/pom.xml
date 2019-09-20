@@ -8,10 +8,10 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pixogram</groupId>
-	<artifactId>user</artifactId>
+	<groupId>com.article</groupId>
+	<artifactId>admin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>user</name>
+	<name>admin</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
